@@ -1,6 +1,7 @@
 %define		pypi_name	matplotlib-inline
 %define		module	matplotlib_inline
 Summary:	Inline Matplotlib backend for Jupyter
+Summary(pl.UTF-8):	Backend Jupytera pozwalający na wstawki używające Matplotliba
 Name:		python3-%{module}
 Version:	0.1.2
 Release:	1
@@ -20,6 +21,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 Inline Matplotlib backend for Jupyter.
+
+%description -l pl.UTF-8
+Backend Jupytera pozwalający na wstawki używające Matplotliba.
 
 %prep
 %setup -q -n %{pypi_name}-%{version}
