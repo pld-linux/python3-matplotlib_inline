@@ -4,7 +4,7 @@ Summary:	Inline Matplotlib backend for Jupyter
 Summary(pl.UTF-8):	Backend Jupytera pozwalający na wstawki używające Matplotliba
 Name:		python3-%{module}
 Version:	0.1.2
-Release:	1
+Release:	2
 License:	BSD
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/matplotlib-inline/
